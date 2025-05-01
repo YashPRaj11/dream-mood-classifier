@@ -1,10 +1,10 @@
 import streamlit as st
-import pickle
-import numpy as np
 
-# Load the trained model
-with open('dream_model.pkl', 'rb') as f:
-    model = pickle.load(f)
+import numpy as np
+import joblib
+
+#Load the model
+model = joblib.load("dream_model.pkl")
 
 # Streamlit app title
 st.title("Dream Mood Classifier")
