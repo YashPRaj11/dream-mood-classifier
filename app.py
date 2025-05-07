@@ -12,7 +12,6 @@ st.title("Dream Mood Classifier")
 # Instructions for the user
 st.write("""
     Enter a description of your dream, and the model will predict your mood.
-    The possible moods are: **happy, nightmare, weird, visionary, confused/anxious**.
 """)
 
 # Text input for the user's dream
